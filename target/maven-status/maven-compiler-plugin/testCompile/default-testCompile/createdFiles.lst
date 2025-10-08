@@ -1,0 +1,15 @@
+scanario\partialupdatebooking\PositiveCasePartialUpdateBooking.class
+convert\ConvertData.class
+scanario\createbooking\NegativeCaseCreateBook.class
+scanario\getbooking\PositiveCaseGetBooking.class
+scanario\getbookingids\PositiveCaseGetBookingIds.class
+scanario\deletebooking\PositiveCaseDeleteBooking.class
+scanario\getbooking\NegativeCaseGetBooking.class
+scanario\partialupdatebooking\NegativeCasePartialUpdateBooking.class
+scanario\updatebooking\NegativeCaseUpdateBooking.class
+scanario\updatebooking\PositiveCaseUpdateBooking.class
+apiengine\BookerCollectionAPI.class
+scanario\getbookingids\NegativeCaseGetBookingIds.class
+scanario\createbooking\PositiveCaseCreateBooking.class
+scanario\deletebooking\NegativeCaseDeleteBooking.class
+scanario\integration\PositiveCaseIntegrationCase1.class

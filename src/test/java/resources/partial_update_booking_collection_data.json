@@ -1,0 +1,37 @@
+[
+     {
+        "usecase" : "partial_update_booking_data1",
+        "payload" : {
+            "firstname" : "Jim"
+
+        }
+     },
+      {
+        "usecase" : "partial_update_booking_data2",
+        "payload" : {
+            "totalprice" : 1000000,
+            "depositpaid" : false
+
+        }
+     },
+
+     {
+        "usecase" : "partial_update_booking_data3",
+        "payload" : {
+            "totalprice" :0
+
+        }
+     },
+
+      {
+        "usecase" : "partial_update_booking_data4",
+        "payload" : {
+            "totalprice2" :"150000"
+
+        }
+     }
+
+    
+
+]
+

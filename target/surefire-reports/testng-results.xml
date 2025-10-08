@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="40" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-08T16:17:04 WIB" name="Annotation Execution Suite" finished-at="2025-10-08T16:18:21 WIB" duration-ms="77275">
+    <groups>
+    </groups>
+    <test started-at="2025-10-08T16:17:04 WIB" name="MyTestGroup" finished-at="2025-10-08T16:18:21 WIB" duration-ms="77275">
+      <class name="scanario.updatebooking.PositiveCaseUpdateBooking">
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.updatebooking.PositiveCaseUpdateBooking@333291e3]" started-at="2025-10-08T16:18:09 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:18:09 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="create_booking()[pri:0, instance:scanario.updatebooking.PositiveCaseUpdateBooking@333291e3]" started-at="2025-10-08T16:18:09 WIB" name="create_booking" finished-at="2025-10-08T16:18:11 WIB" duration-ms="1781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.updatebooking.PositiveCaseUpdateBooking@333291e3]" started-at="2025-10-08T16:18:11 WIB" name="afterMethod" finished-at="2025-10-08T16:18:11 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.updatebooking.PositiveCaseUpdateBooking@333291e3]" started-at="2025-10-08T16:18:11 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:18:11 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="update_booking_valid()[pri:0, instance:scanario.updatebooking.PositiveCaseUpdateBooking@333291e3]" started-at="2025-10-08T16:18:11 WIB" name="update_booking_valid" finished-at="2025-10-08T16:18:12 WIB" depends-on-methods="scanario.updatebooking.PositiveCaseUpdateBooking.create_booking" duration-ms="1739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_booking_valid -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.updatebooking.PositiveCaseUpdateBooking@333291e3]" started-at="2025-10-08T16:18:12 WIB" name="afterMethod" finished-at="2025-10-08T16:18:12 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.updatebooking.PositiveCaseUpdateBooking@333291e3]" started-at="2025-10-08T16:18:12 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:18:12 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="update_booking_firstlastname()[pri:2, instance:scanario.updatebooking.PositiveCaseUpdateBooking@333291e3]" started-at="2025-10-08T16:18:12 WIB" name="update_booking_firstlastname" finished-at="2025-10-08T16:18:14 WIB" depends-on-methods="scanario.updatebooking.PositiveCaseUpdateBooking.create_booking" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_booking_firstlastname -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.updatebooking.PositiveCaseUpdateBooking@333291e3]" started-at="2025-10-08T16:18:14 WIB" name="afterMethod" finished-at="2025-10-08T16:18:14 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.updatebooking.PositiveCaseUpdateBooking@333291e3]" started-at="2025-10-08T16:18:14 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:18:14 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="update_booking_checkinout()[pri:3, instance:scanario.updatebooking.PositiveCaseUpdateBooking@333291e3]" started-at="2025-10-08T16:18:14 WIB" name="update_booking_checkinout" finished-at="2025-10-08T16:18:16 WIB" duration-ms="2142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_booking_checkinout -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.updatebooking.PositiveCaseUpdateBooking@333291e3]" started-at="2025-10-08T16:18:16 WIB" name="afterMethod" finished-at="2025-10-08T16:18:16 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- scanario.updatebooking.PositiveCaseUpdateBooking -->
+      <class name="scanario.getbookingids.NegativeCaseGetBookingIds">
+        <test-method signature="get_booking_ids_parameter_unknow()[pri:0, instance:scanario.getbookingids.NegativeCaseGetBookingIds@1afd44cb]" started-at="2025-10-08T16:17:44 WIB" name="get_booking_ids_parameter_unknow" finished-at="2025-10-08T16:17:45 WIB" duration-ms="1367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking_ids_parameter_unknow -->
+        <test-method signature="get_booking_ids_wrong_format()[pri:0, instance:scanario.getbookingids.NegativeCaseGetBookingIds@1afd44cb]" started-at="2025-10-08T16:17:45 WIB" name="get_booking_ids_wrong_format" finished-at="2025-10-08T16:17:46 WIB" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking_ids_wrong_format -->
+        <test-method signature="get_booking_ids_wrong_method()[pri:0, instance:scanario.getbookingids.NegativeCaseGetBookingIds@1afd44cb]" started-at="2025-10-08T16:17:46 WIB" name="get_booking_ids_wrong_method" finished-at="2025-10-08T16:17:48 WIB" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking_ids_wrong_method -->
+      </class> <!-- scanario.getbookingids.NegativeCaseGetBookingIds -->
+      <class name="scanario.getbooking.NegativeCaseGetBooking">
+        <test-method signature="get_booking__header_valid()[pri:0, instance:scanario.getbooking.NegativeCaseGetBooking@192d43ce]" started-at="2025-10-08T16:17:33 WIB" name="get_booking__header_valid" finished-at="2025-10-08T16:17:35 WIB" duration-ms="1546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking__header_valid -->
+        <test-method signature="get_booking_id_invalid()[pri:0, instance:scanario.getbooking.NegativeCaseGetBooking@192d43ce]" started-at="2025-10-08T16:17:35 WIB" name="get_booking_id_invalid" finished-at="2025-10-08T16:17:37 WIB" duration-ms="1625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking_id_invalid -->
+        <test-method signature="get_booking_valid()[pri:0, instance:scanario.getbooking.NegativeCaseGetBooking@192d43ce]" started-at="2025-10-08T16:17:37 WIB" name="get_booking_valid" finished-at="2025-10-08T16:17:38 WIB" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking_valid -->
+      </class> <!-- scanario.getbooking.NegativeCaseGetBooking -->
+      <class name="scanario.deletebooking.PositiveCaseDeleteBooking">
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.deletebooking.PositiveCaseDeleteBooking@28eaa59a]" started-at="2025-10-08T16:17:14 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:14 WIB" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method is-config="true" signature="create_booking()[pri:0, instance:scanario.deletebooking.PositiveCaseDeleteBooking@28eaa59a]" started-at="2025-10-08T16:17:14 WIB" name="create_booking" finished-at="2025-10-08T16:17:16 WIB" duration-ms="1623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking -->
+        <test-method signature="delete_booking()[pri:0, instance:scanario.deletebooking.PositiveCaseDeleteBooking@28eaa59a]" started-at="2025-10-08T16:17:16 WIB" name="delete_booking" finished-at="2025-10-08T16:17:18 WIB" duration-ms="1627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_booking -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.deletebooking.PositiveCaseDeleteBooking@28eaa59a]" started-at="2025-10-08T16:17:18 WIB" name="afterMethod" finished-at="2025-10-08T16:17:18 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.deletebooking.PositiveCaseDeleteBooking@28eaa59a]" started-at="2025-10-08T16:17:18 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:18 WIB" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method is-config="true" signature="create_booking()[pri:0, instance:scanario.deletebooking.PositiveCaseDeleteBooking@28eaa59a]" started-at="2025-10-08T16:17:18 WIB" name="create_booking" finished-at="2025-10-08T16:17:19 WIB" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking -->
+        <test-method signature="delete_booking_header_Valid()[pri:0, instance:scanario.deletebooking.PositiveCaseDeleteBooking@28eaa59a]" started-at="2025-10-08T16:17:19 WIB" name="delete_booking_header_Valid" finished-at="2025-10-08T16:17:21 WIB" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_booking_header_Valid -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.deletebooking.PositiveCaseDeleteBooking@28eaa59a]" started-at="2025-10-08T16:17:21 WIB" name="afterMethod" finished-at="2025-10-08T16:17:21 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.deletebooking.PositiveCaseDeleteBooking@28eaa59a]" started-at="2025-10-08T16:17:21 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:21 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method is-config="true" signature="create_booking()[pri:0, instance:scanario.deletebooking.PositiveCaseDeleteBooking@28eaa59a]" started-at="2025-10-08T16:17:21 WIB" name="create_booking" finished-at="2025-10-08T16:17:22 WIB" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking -->
+        <test-method signature="delete_booking_token_Valid()[pri:0, instance:scanario.deletebooking.PositiveCaseDeleteBooking@28eaa59a]" started-at="2025-10-08T16:17:22 WIB" name="delete_booking_token_Valid" finished-at="2025-10-08T16:17:24 WIB" duration-ms="1523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_booking_token_Valid -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.deletebooking.PositiveCaseDeleteBooking@28eaa59a]" started-at="2025-10-08T16:17:24 WIB" name="afterMethod" finished-at="2025-10-08T16:17:24 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- scanario.deletebooking.PositiveCaseDeleteBooking -->
+      <class name="scanario.getbookingids.PositiveCaseGetBookingIds">
+        <test-method signature="get_booking_ids()[pri:0, instance:scanario.getbookingids.PositiveCaseGetBookingIds@72057ecf]" started-at="2025-10-08T16:17:38 WIB" name="get_booking_ids" finished-at="2025-10-08T16:17:40 WIB" duration-ms="2324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking_ids -->
+        <test-method signature="get_booking_ids_firsname()[pri:0, instance:scanario.getbookingids.PositiveCaseGetBookingIds@72057ecf]" started-at="2025-10-08T16:17:40 WIB" name="get_booking_ids_firsname" finished-at="2025-10-08T16:17:42 WIB" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking_ids_firsname -->
+        <test-method signature="get_booking_ids_lastname()[pri:0, instance:scanario.getbookingids.PositiveCaseGetBookingIds@72057ecf]" started-at="2025-10-08T16:17:42 WIB" name="get_booking_ids_lastname" finished-at="2025-10-08T16:17:44 WIB" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking_ids_lastname -->
+      </class> <!-- scanario.getbookingids.PositiveCaseGetBookingIds -->
+      <class name="scanario.updatebooking.NegativeCaseUpdateBooking">
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.updatebooking.NegativeCaseUpdateBooking@479d31f3]" started-at="2025-10-08T16:18:16 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:18:16 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="create_booking()[pri:0, instance:scanario.updatebooking.NegativeCaseUpdateBooking@479d31f3]" started-at="2025-10-08T16:18:16 WIB" name="create_booking" finished-at="2025-10-08T16:18:18 WIB" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.updatebooking.NegativeCaseUpdateBooking@479d31f3]" started-at="2025-10-08T16:18:18 WIB" name="afterMethod" finished-at="2025-10-08T16:18:18 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.updatebooking.NegativeCaseUpdateBooking@479d31f3]" started-at="2025-10-08T16:18:18 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:18:18 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="update_booking_firstname_null()[pri:0, instance:scanario.updatebooking.NegativeCaseUpdateBooking@479d31f3]" started-at="2025-10-08T16:18:18 WIB" name="update_booking_firstname_null" finished-at="2025-10-08T16:18:20 WIB" depends-on-methods="scanario.updatebooking.NegativeCaseUpdateBooking.create_booking" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_booking_firstname_null -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.updatebooking.NegativeCaseUpdateBooking@479d31f3]" started-at="2025-10-08T16:18:20 WIB" name="afterMethod" finished-at="2025-10-08T16:18:20 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.updatebooking.NegativeCaseUpdateBooking@479d31f3]" started-at="2025-10-08T16:18:20 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:18:20 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="update_booking_invalid_id()[pri:0, instance:scanario.updatebooking.NegativeCaseUpdateBooking@479d31f3]" started-at="2025-10-08T16:18:20 WIB" name="update_booking_invalid_id" finished-at="2025-10-08T16:18:21 WIB" depends-on-methods="scanario.updatebooking.NegativeCaseUpdateBooking.create_booking" duration-ms="1640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_booking_invalid_id -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.updatebooking.NegativeCaseUpdateBooking@479d31f3]" started-at="2025-10-08T16:18:21 WIB" name="afterMethod" finished-at="2025-10-08T16:18:21 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- scanario.updatebooking.NegativeCaseUpdateBooking -->
+      <class name="scanario.partialupdatebooking.NegativeCasePartialUpdateBooking">
+        <test-method signature="create_booking()[pri:0, instance:scanario.partialupdatebooking.NegativeCasePartialUpdateBooking@43195e57]" started-at="2025-10-08T16:18:04 WIB" name="create_booking" finished-at="2025-10-08T16:18:06 WIB" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.partialupdatebooking.NegativeCasePartialUpdateBooking@43195e57]" started-at="2025-10-08T16:18:04 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:18:04 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.partialupdatebooking.NegativeCasePartialUpdateBooking@43195e57]" started-at="2025-10-08T16:18:06 WIB" name="afterMethod" finished-at="2025-10-08T16:18:06 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.partialupdatebooking.NegativeCasePartialUpdateBooking@43195e57]" started-at="2025-10-08T16:18:06 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:18:06 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="partial_update_booking_invalid_id()[pri:0, instance:scanario.partialupdatebooking.NegativeCasePartialUpdateBooking@43195e57]" started-at="2025-10-08T16:18:06 WIB" name="partial_update_booking_invalid_id" finished-at="2025-10-08T16:18:07 WIB" depends-on-methods="scanario.partialupdatebooking.NegativeCasePartialUpdateBooking.create_booking" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partial_update_booking_invalid_id -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.partialupdatebooking.NegativeCasePartialUpdateBooking@43195e57]" started-at="2025-10-08T16:18:07 WIB" name="afterMethod" finished-at="2025-10-08T16:18:07 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.partialupdatebooking.NegativeCasePartialUpdateBooking@43195e57]" started-at="2025-10-08T16:18:07 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:18:07 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="partial_update_invalid_field()[pri:0, instance:scanario.partialupdatebooking.NegativeCasePartialUpdateBooking@43195e57]" started-at="2025-10-08T16:18:07 WIB" name="partial_update_invalid_field" finished-at="2025-10-08T16:18:09 WIB" depends-on-methods="scanario.partialupdatebooking.NegativeCasePartialUpdateBooking.create_booking" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partial_update_invalid_field -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.partialupdatebooking.NegativeCasePartialUpdateBooking@43195e57]" started-at="2025-10-08T16:18:09 WIB" name="afterMethod" finished-at="2025-10-08T16:18:09 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- scanario.partialupdatebooking.NegativeCasePartialUpdateBooking -->
+      <class name="scanario.integration.PositiveCaseIntegrationCase1">
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.integration.PositiveCaseIntegrationCase1@6973b51b]" started-at="2025-10-08T16:17:48 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:48 WIB" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="integration_test1()[pri:0, instance:scanario.integration.PositiveCaseIntegrationCase1@6973b51b]" started-at="2025-10-08T16:17:48 WIB" name="integration_test1" finished-at="2025-10-08T16:17:53 WIB" duration-ms="5285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integration_test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.integration.PositiveCaseIntegrationCase1@6973b51b]" started-at="2025-10-08T16:17:53 WIB" name="afterMethod" finished-at="2025-10-08T16:17:53 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="integration_test2()[pri:0, instance:scanario.integration.PositiveCaseIntegrationCase1@6973b51b]" started-at="2025-10-08T16:17:53 WIB" name="integration_test2" finished-at="2025-10-08T16:17:57 WIB" duration-ms="4194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integration_test2 -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.integration.PositiveCaseIntegrationCase1@6973b51b]" started-at="2025-10-08T16:17:53 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:53 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.integration.PositiveCaseIntegrationCase1@6973b51b]" started-at="2025-10-08T16:17:57 WIB" name="afterMethod" finished-at="2025-10-08T16:17:57 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- scanario.integration.PositiveCaseIntegrationCase1 -->
+      <class name="scanario.createbooking.PositiveCaseCreateBooking">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:scanario.createbooking.PositiveCaseCreateBooking@3daa422a]" started-at="2025-10-08T16:17:00 WIB" name="BeforeSuite" finished-at="2025-10-08T16:17:04 WIB" duration-ms="4642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.createbooking.PositiveCaseCreateBooking@3daa422a]" started-at="2025-10-08T16:17:04 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:04 WIB" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="create_booking_data_valid()[pri:1, instance:scanario.createbooking.PositiveCaseCreateBooking@3daa422a]" started-at="2025-10-08T16:17:04 WIB" name="create_booking_data_valid" finished-at="2025-10-08T16:17:06 WIB" duration-ms="2006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking_data_valid -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.createbooking.PositiveCaseCreateBooking@3daa422a]" started-at="2025-10-08T16:17:06 WIB" name="afterMethod" finished-at="2025-10-08T16:17:06 WIB" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.createbooking.PositiveCaseCreateBooking@3daa422a]" started-at="2025-10-08T16:17:06 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:06 WIB" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="create_booking_change_depositpaid()[pri:2, instance:scanario.createbooking.PositiveCaseCreateBooking@3daa422a]" started-at="2025-10-08T16:17:06 WIB" name="create_booking_change_depositpaid" finished-at="2025-10-08T16:17:08 WIB" duration-ms="1547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking_change_depositpaid -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.createbooking.PositiveCaseCreateBooking@3daa422a]" started-at="2025-10-08T16:17:08 WIB" name="afterMethod" finished-at="2025-10-08T16:17:08 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.createbooking.PositiveCaseCreateBooking@3daa422a]" started-at="2025-10-08T16:17:08 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:08 WIB" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="create_booking_additionalneed()[pri:3, instance:scanario.createbooking.PositiveCaseCreateBooking@3daa422a]" started-at="2025-10-08T16:17:08 WIB" name="create_booking_additionalneed" finished-at="2025-10-08T16:17:10 WIB" duration-ms="1749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking_additionalneed -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.createbooking.PositiveCaseCreateBooking@3daa422a]" started-at="2025-10-08T16:17:10 WIB" name="afterMethod" finished-at="2025-10-08T16:17:10 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- scanario.createbooking.PositiveCaseCreateBooking -->
+      <class name="scanario.getbooking.PositiveCaseGetBooking">
+        <test-method signature="get_booking__header_lowestId()[pri:0, instance:scanario.getbooking.PositiveCaseGetBooking@5f058f00]" started-at="2025-10-08T16:17:28 WIB" name="get_booking__header_lowestId" finished-at="2025-10-08T16:17:30 WIB" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking__header_lowestId -->
+        <test-method signature="get_booking__header_valid()[pri:0, instance:scanario.getbooking.PositiveCaseGetBooking@5f058f00]" started-at="2025-10-08T16:17:30 WIB" name="get_booking__header_valid" finished-at="2025-10-08T16:17:32 WIB" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking__header_valid -->
+        <test-method signature="get_booking_valid()[pri:0, instance:scanario.getbooking.PositiveCaseGetBooking@5f058f00]" started-at="2025-10-08T16:17:32 WIB" name="get_booking_valid" finished-at="2025-10-08T16:17:33 WIB" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking_valid -->
+      </class> <!-- scanario.getbooking.PositiveCaseGetBooking -->
+      <class name="scanario.partialupdatebooking.PositiveCasePartialUpdateBooking">
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.partialupdatebooking.PositiveCasePartialUpdateBooking@1ab3a8c8]" started-at="2025-10-08T16:17:57 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:57 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="create_booking()[pri:0, instance:scanario.partialupdatebooking.PositiveCasePartialUpdateBooking@1ab3a8c8]" started-at="2025-10-08T16:17:57 WIB" name="create_booking" finished-at="2025-10-08T16:17:59 WIB" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.partialupdatebooking.PositiveCasePartialUpdateBooking@1ab3a8c8]" started-at="2025-10-08T16:17:59 WIB" name="afterMethod" finished-at="2025-10-08T16:17:59 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="partial_update_booking_firstlastname()[pri:1, instance:scanario.partialupdatebooking.PositiveCasePartialUpdateBooking@1ab3a8c8]" started-at="2025-10-08T16:17:59 WIB" name="partial_update_booking_firstlastname" finished-at="2025-10-08T16:18:00 WIB" depends-on-methods="scanario.partialupdatebooking.PositiveCasePartialUpdateBooking.create_booking" duration-ms="1528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partial_update_booking_firstlastname -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.partialupdatebooking.PositiveCasePartialUpdateBooking@1ab3a8c8]" started-at="2025-10-08T16:17:59 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:59 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.partialupdatebooking.PositiveCasePartialUpdateBooking@1ab3a8c8]" started-at="2025-10-08T16:18:00 WIB" name="afterMethod" finished-at="2025-10-08T16:18:00 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.partialupdatebooking.PositiveCasePartialUpdateBooking@1ab3a8c8]" started-at="2025-10-08T16:18:00 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:18:00 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="partial_update_booking_price_deposite()[pri:2, instance:scanario.partialupdatebooking.PositiveCasePartialUpdateBooking@1ab3a8c8]" started-at="2025-10-08T16:18:00 WIB" name="partial_update_booking_price_deposite" finished-at="2025-10-08T16:18:02 WIB" depends-on-methods="scanario.partialupdatebooking.PositiveCasePartialUpdateBooking.create_booking" duration-ms="2148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partial_update_booking_price_deposite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.partialupdatebooking.PositiveCasePartialUpdateBooking@1ab3a8c8]" started-at="2025-10-08T16:18:02 WIB" name="afterMethod" finished-at="2025-10-08T16:18:02 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.partialupdatebooking.PositiveCasePartialUpdateBooking@1ab3a8c8]" started-at="2025-10-08T16:18:02 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:18:02 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="partial_update_booking_price()[pri:3, instance:scanario.partialupdatebooking.PositiveCasePartialUpdateBooking@1ab3a8c8]" started-at="2025-10-08T16:18:02 WIB" name="partial_update_booking_price" finished-at="2025-10-08T16:18:04 WIB" depends-on-methods="scanario.partialupdatebooking.PositiveCasePartialUpdateBooking.create_booking" duration-ms="1739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partial_update_booking_price -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.partialupdatebooking.PositiveCasePartialUpdateBooking@1ab3a8c8]" started-at="2025-10-08T16:18:04 WIB" name="afterMethod" finished-at="2025-10-08T16:18:04 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- scanario.partialupdatebooking.PositiveCasePartialUpdateBooking -->
+      <class name="scanario.deletebooking.NegativeCaseDeleteBooking">
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.deletebooking.NegativeCaseDeleteBooking@55b7a4e0]" started-at="2025-10-08T16:17:24 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:24 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="create_booking()[pri:0, instance:scanario.deletebooking.NegativeCaseDeleteBooking@55b7a4e0]" started-at="2025-10-08T16:17:24 WIB" name="create_booking" finished-at="2025-10-08T16:17:25 WIB" duration-ms="1582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.deletebooking.NegativeCaseDeleteBooking@55b7a4e0]" started-at="2025-10-08T16:17:25 WIB" name="afterMethod" finished-at="2025-10-08T16:17:25 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.deletebooking.NegativeCaseDeleteBooking@55b7a4e0]" started-at="2025-10-08T16:17:25 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:25 WIB" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="delete_booking_header_null()[pri:0, instance:scanario.deletebooking.NegativeCaseDeleteBooking@55b7a4e0]" started-at="2025-10-08T16:17:25 WIB" name="delete_booking_header_null" finished-at="2025-10-08T16:17:27 WIB" depends-on-methods="scanario.deletebooking.NegativeCaseDeleteBooking.create_booking" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_booking_header_null -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.deletebooking.NegativeCaseDeleteBooking@55b7a4e0]" started-at="2025-10-08T16:17:27 WIB" name="afterMethod" finished-at="2025-10-08T16:17:27 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.deletebooking.NegativeCaseDeleteBooking@55b7a4e0]" started-at="2025-10-08T16:17:27 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:27 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="delete_booking_invalid_id()[pri:1, instance:scanario.deletebooking.NegativeCaseDeleteBooking@55b7a4e0]" started-at="2025-10-08T16:17:27 WIB" name="delete_booking_invalid_id" finished-at="2025-10-08T16:17:28 WIB" depends-on-methods="scanario.deletebooking.NegativeCaseDeleteBooking.create_booking" duration-ms="1680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_booking_invalid_id -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.deletebooking.NegativeCaseDeleteBooking@55b7a4e0]" started-at="2025-10-08T16:17:28 WIB" name="afterMethod" finished-at="2025-10-08T16:17:28 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- scanario.deletebooking.NegativeCaseDeleteBooking -->
+      <class name="scanario.createbooking.NegativeCaseCreateBook">
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.createbooking.NegativeCaseCreateBook@7ed7259e]" started-at="2025-10-08T16:17:10 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:10 WIB" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="create_booking_firstname_null()[pri:1, instance:scanario.createbooking.NegativeCaseCreateBook@7ed7259e]" started-at="2025-10-08T16:17:10 WIB" name="create_booking_firstname_null" finished-at="2025-10-08T16:17:11 WIB" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking_firstname_null -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.createbooking.NegativeCaseCreateBook@7ed7259e]" started-at="2025-10-08T16:17:11 WIB" name="afterMethod" finished-at="2025-10-08T16:17:11 WIB" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.createbooking.NegativeCaseCreateBook@7ed7259e]" started-at="2025-10-08T16:17:11 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:11 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="create_booking_checkinout()[pri:2, instance:scanario.createbooking.NegativeCaseCreateBook@7ed7259e]" started-at="2025-10-08T16:17:11 WIB" name="create_booking_checkinout" finished-at="2025-10-08T16:17:13 WIB" duration-ms="1549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking_checkinout -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.createbooking.NegativeCaseCreateBook@7ed7259e]" started-at="2025-10-08T16:17:13 WIB" name="afterMethod" finished-at="2025-10-08T16:17:13 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setupRequestSpesification()[pri:0, instance:scanario.createbooking.NegativeCaseCreateBook@7ed7259e]" started-at="2025-10-08T16:17:13 WIB" name="setupRequestSpesification" finished-at="2025-10-08T16:17:13 WIB" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRequestSpesification -->
+        <test-method signature="create_booking_depositpadi_invalid()[pri:3, instance:scanario.createbooking.NegativeCaseCreateBook@7ed7259e]" started-at="2025-10-08T16:17:13 WIB" name="create_booking_depositpadi_invalid" finished-at="2025-10-08T16:17:14 WIB" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking_depositpadi_invalid -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:scanario.createbooking.NegativeCaseCreateBook@7ed7259e]" started-at="2025-10-08T16:17:14 WIB" name="afterMethod" finished-at="2025-10-08T16:17:14 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- scanario.createbooking.NegativeCaseCreateBook -->
+    </test> <!-- MyTestGroup -->
+  </suite> <!-- Annotation Execution Suite -->
+</testng-results>

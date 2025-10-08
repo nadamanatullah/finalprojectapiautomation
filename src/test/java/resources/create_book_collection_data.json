@@ -1,0 +1,92 @@
+
+
+
+[
+    {
+        "usecase" : "create_book_collection_data1",
+        "payload" : {
+            "firstname" : "Jim",
+            "lastname" : "Brown",
+            "totalprice" : 111,
+            "depositpaid" : true,
+            "bookingdates" : {
+                "checkin" : "2018-01-01",
+                "checkout" : "2019-01-01"
+             },
+            "additionalneeds" : "Breakfast"
+        }
+
+    }, 
+    {
+        "usecase" : "create_book_collection_data2",
+        "payload" : {
+            "firstname" : "Jim",
+            "lastname" : "Brown",
+            "totalprice" : 111,
+            "depositpaid" : false,
+            "bookingdates" : {
+                "checkin" : "2018-01-01",
+                "checkout" : "2019-01-01"
+             },
+            "additionalneeds" : "Breakfast"
+        }
+    },
+    {
+        "usecase" : "create_book_collection_data3",
+        "payload" : {
+            "firstname" : "Jim",
+            "lastname" : "Brown",
+            "totalprice" : 111,
+            "depositpaid" : false,
+            "bookingdates" : {
+                "checkin" : "2018-01-01",
+                "checkout" : "2019-01-01"
+             }
+            
+        }
+    },
+    {
+        "usecase" : "create_book_collection_data4",
+        "payload" : {
+            "lastname" : "Brown",
+            "totalprice" : 111,
+            "depositpaid" : true,
+            "bookingdates" : {
+                "checkin" : "2018-01-01",
+                "checkout" : "2019-01-01"
+             }
+            
+        }
+    },
+    {
+        "usecase" : "create_book_collection_data5",
+        "payload" : {
+            "firstname" : "Jim",
+            "lastname" : "Brown",
+            "totalprice" : 111,
+            "depositpaid" : false,
+            "bookingdates" : {
+                "checkin" : "2025-01-01",
+                "checkout" : "2023-01-01"
+             }
+            
+        }
+    },
+    {
+        "usecase" : "create_book_collection_data6",
+        "payload" : {
+            "firstname" : "Jim",
+            "lastname" : "Brown",
+            "totalprice" : 111,
+            "depositpaid" : 1243242,
+            "bookingdates" : {
+                "checkin" : "2025-01-01",
+                "checkout" : "2023-01-01"
+             },
+        "additionalneeds" : "Breakfast"
+            
+        }
+    }
+  
+]
+

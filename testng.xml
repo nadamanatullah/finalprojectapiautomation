@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="AllTestsSuite" verbose="1"> -->
+    <suite name="Annotation Execution Suite" >
+        <test name="MyTestGroup">
+        <parameter name="program"  value="Bootcamp API Automation"/>
+            <classes>
+                <class name="scanario.createbooking.PositiveCaseCreateBooking"/>
+                <class name="scanario.createbooking.NegativeCaseCreateBook"/>
+                <class name="scanario.deletebooking.PositiveCaseDeleteBooking"/>
+                <class name="scanario.deletebooking.NegativeCaseDeleteBooking"/>
+                <class name="scanario.getbooking.PositiveCaseGetBooking"/>
+                <class name="scanario.getbooking.NegativeCaseGetBooking"/>
+                <class name="scanario.getbookingids.PositiveCaseGetBookingIds"/>
+                <class name="scanario.getbookingids.NegativeCaseGetBookingIds"/>
+                <class name="scanario.integration.PositiveCaseIntegrationCase1"/>
+                <class name="scanario.partialupdatebooking.PositiveCasePartialUpdateBooking"/>
+                <class name="scanario.partialupdatebooking.NegativeCasePartialUpdateBooking"/>
+                <class name="scanario.updatebooking.PositiveCaseUpdateBooking"/>
+                <class name="scanario.updatebooking.NegativeCaseUpdateBooking"/>
+            </classes>
+        </test>
+    </suite>
+    
+<!-- </suite> -->

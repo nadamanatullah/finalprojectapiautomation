@@ -1,0 +1,59 @@
+[
+     {
+        "usecase" : "update_book_collection_data1",
+        "payload" : {
+            "firstname" : "James",
+            "lastname" : "Brown",
+            "totalprice" : 111,
+            "depositpaid" : true,
+            "bookingdates" : {
+                "checkin" : "2018-01-01",
+                "checkout" : "2019-01-01"
+            },
+            "additionalneeds" : "Breakfast"
+        }
+    },
+    {
+        "usecase" : "update_book_collection_data2",
+        "payload" : {
+            "firstname" : "Alex",
+            "lastname" : "Xander",
+            "totalprice" : 111,
+            "depositpaid" : true,
+            "bookingdates" : {
+                "checkin" : "2018-01-01",
+                "checkout" : "2019-01-01"
+            },
+            "additionalneeds" : "Breakfast"
+        }
+    },
+    {
+        "usecase" : "update_book_collection_data3",
+        "payload" : {
+            "firstname" : "Alex",
+            "lastname" : "Xander",
+            "totalprice" : 111,
+            "depositpaid" : true,
+            "bookingdates" : {
+                "checkin" : "2019-01-01",
+                "checkout" : "2019-03-06"
+            },
+            "additionalneeds" : "Breakfast"
+        }
+    },
+     {
+        "usecase" : "update_book_collection_data4",
+        "payload" : {
+            "lastname" : "Xander",
+            "totalprice" : 111,
+            "depositpaid" : true,
+            "bookingdates" : {
+                "checkin" : "2019-01-01",
+                "checkout" : "2019-03-06"
+            },
+            "additionalneeds" : "Breakfast"
+        }
+    }
+]
+
+
