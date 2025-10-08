@@ -5,7 +5,7 @@ Final Task API Automotion
 🚀 Quick Start
 ### 1. Clone the repository:
 ```bash
-git clone (https://github.com/nadamanatullah/finalprojectapiautomation.git)
+git clone https://github.com/nadamanatullah/finalprojectapiautomation.git
 ```
 
 ### 2. Build the project:
